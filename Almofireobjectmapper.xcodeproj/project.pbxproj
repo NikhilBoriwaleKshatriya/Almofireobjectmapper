@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1E317D9200E2C1200866F5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E317D8200E2C1200866F5D /* AppDelegate.swift */; };
+		F1E317DB200E2C1200866F5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E317DA200E2C1200866F5D /* ViewController.swift */; };
+		F1E317DE200E2C1200866F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E317DC200E2C1200866F5D /* Main.storyboard */; };
+		F1E317E0200E2C1200866F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1E317DF200E2C1200866F5D /* Assets.xcassets */; };
+		F1E317E3200E2C1200866F5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1E317E1200E2C1200866F5D /* LaunchScreen.storyboard */; };
+		F1E317EE200E2C1200866F5D /* AlmofireobjectmapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E317ED200E2C1200866F5D /* AlmofireobjectmapperTests.swift */; };
+		F1E317F9200E2C1200866F5D /* AlmofireobjectmapperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E317F8200E2C1200866F5D /* AlmofireobjectmapperUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1E317EA200E2C1200866F5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1E317CD200E2C1200866F5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1E317D4200E2C1200866F5D;
+			remoteInfo = Almofireobjectmapper;
+		};
+		F1E317F5200E2C1200866F5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1E317CD200E2C1200866F5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1E317D4200E2C1200866F5D;
+			remoteInfo = Almofireobjectmapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1E317D5200E2C1200866F5D /* Almofireobjectmapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Almofireobjectmapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E317D8200E2C1200866F5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1E317DA200E2C1200866F5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1E317DD200E2C1200866F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1E317DF200E2C1200866F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1E317E2200E2C1200866F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1E317E4200E2C1200866F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1E317E9200E2C1200866F5D /* AlmofireobjectmapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlmofireobjectmapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E317ED200E2C1200866F5D /* AlmofireobjectmapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmofireobjectmapperTests.swift; sourceTree = "<group>"; };
+		F1E317EF200E2C1200866F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1E317F4200E2C1200866F5D /* AlmofireobjectmapperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlmofireobjectmapperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E317F8200E2C1200866F5D /* AlmofireobjectmapperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmofireobjectmapperUITests.swift; sourceTree = "<group>"; };
+		F1E317FA200E2C1200866F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1E317D2200E2C1200866F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E317E6200E2C1200866F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E317F1200E2C1200866F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1E317CC200E2C1200866F5D = {
+			isa = PBXGroup;
+			children = (
+				F1E317D7200E2C1200866F5D /* Almofireobjectmapper */,
+				F1E317EC200E2C1200866F5D /* AlmofireobjectmapperTests */,
+				F1E317F7200E2C1200866F5D /* AlmofireobjectmapperUITests */,
+				F1E317D6200E2C1200866F5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1E317D6200E2C1200866F5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1E317D5200E2C1200866F5D /* Almofireobjectmapper.app */,
+				F1E317E9200E2C1200866F5D /* AlmofireobjectmapperTests.xctest */,
+				F1E317F4200E2C1200866F5D /* AlmofireobjectmapperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1E317D7200E2C1200866F5D /* Almofireobjectmapper */ = {
+			isa = PBXGroup;
+			children = (
+				F1E317D8200E2C1200866F5D /* AppDelegate.swift */,
+				F1E317DA200E2C1200866F5D /* ViewController.swift */,
+				F1E317DC200E2C1200866F5D /* Main.storyboard */,
+				F1E317DF200E2C1200866F5D /* Assets.xcassets */,
+				F1E317E1200E2C1200866F5D /* LaunchScreen.storyboard */,
+				F1E317E4200E2C1200866F5D /* Info.plist */,
+			);
+			path = Almofireobjectmapper;
+			sourceTree = "<group>";
+		};
+		F1E317EC200E2C1200866F5D /* AlmofireobjectmapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1E317ED200E2C1200866F5D /* AlmofireobjectmapperTests.swift */,
+				F1E317EF200E2C1200866F5D /* Info.plist */,
+			);
+			path = AlmofireobjectmapperTests;
+			sourceTree = "<group>";
+		};
+		F1E317F7200E2C1200866F5D /* AlmofireobjectmapperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1E317F8200E2C1200866F5D /* AlmofireobjectmapperUITests.swift */,
+				F1E317FA200E2C1200866F5D /* Info.plist */,
+			);
+			path = AlmofireobjectmapperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1E317D4200E2C1200866F5D /* Almofireobjectmapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1E317FD200E2C1200866F5D /* Build configuration list for PBXNativeTarget "Almofireobjectmapper" */;
+			buildPhases = (
+				F1E317D1200E2C1200866F5D /* Sources */,
+				F1E317D2200E2C1200866F5D /* Frameworks */,
+				F1E317D3200E2C1200866F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Almofireobjectmapper;
+			productName = Almofireobjectmapper;
+			productReference = F1E317D5200E2C1200866F5D /* Almofireobjectmapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1E317E8200E2C1200866F5D /* AlmofireobjectmapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1E31800200E2C1200866F5D /* Build configuration list for PBXNativeTarget "AlmofireobjectmapperTests" */;
+			buildPhases = (
+				F1E317E5200E2C1200866F5D /* Sources */,
+				F1E317E6200E2C1200866F5D /* Frameworks */,
+				F1E317E7200E2C1200866F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1E317EB200E2C1200866F5D /* PBXTargetDependency */,
+			);
+			name = AlmofireobjectmapperTests;
+			productName = AlmofireobjectmapperTests;
+			productReference = F1E317E9200E2C1200866F5D /* AlmofireobjectmapperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1E317F3200E2C1200866F5D /* AlmofireobjectmapperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1E31803200E2C1200866F5D /* Build configuration list for PBXNativeTarget "AlmofireobjectmapperUITests" */;
+			buildPhases = (
+				F1E317F0200E2C1200866F5D /* Sources */,
+				F1E317F1200E2C1200866F5D /* Frameworks */,
+				F1E317F2200E2C1200866F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1E317F6200E2C1200866F5D /* PBXTargetDependency */,
+			);
+			name = AlmofireobjectmapperUITests;
+			productName = AlmofireobjectmapperUITests;
+			productReference = F1E317F4200E2C1200866F5D /* AlmofireobjectmapperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1E317CD200E2C1200866F5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = infostretch;
+				TargetAttributes = {
+					F1E317D4200E2C1200866F5D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F1E317E8200E2C1200866F5D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F1E317D4200E2C1200866F5D;
+					};
+					F1E317F3200E2C1200866F5D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F1E317D4200E2C1200866F5D;
+					};
+				};
+			};
+			buildConfigurationList = F1E317D0200E2C1200866F5D /* Build configuration list for PBXProject "Almofireobjectmapper" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1E317CC200E2C1200866F5D;
+			productRefGroup = F1E317D6200E2C1200866F5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1E317D4200E2C1200866F5D /* Almofireobjectmapper */,
+				F1E317E8200E2C1200866F5D /* AlmofireobjectmapperTests */,
+				F1E317F3200E2C1200866F5D /* AlmofireobjectmapperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1E317D3200E2C1200866F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E317E3200E2C1200866F5D /* LaunchScreen.storyboard in Resources */,
+				F1E317E0200E2C1200866F5D /* Assets.xcassets in Resources */,
+				F1E317DE200E2C1200866F5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E317E7200E2C1200866F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E317F2200E2C1200866F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1E317D1200E2C1200866F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E317DB200E2C1200866F5D /* ViewController.swift in Sources */,
+				F1E317D9200E2C1200866F5D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E317E5200E2C1200866F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E317EE200E2C1200866F5D /* AlmofireobjectmapperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E317F0200E2C1200866F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1E317F9200E2C1200866F5D /* AlmofireobjectmapperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1E317EB200E2C1200866F5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1E317D4200E2C1200866F5D /* Almofireobjectmapper */;
+			targetProxy = F1E317EA200E2C1200866F5D /* PBXContainerItemProxy */;
+		};
+		F1E317F6200E2C1200866F5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1E317D4200E2C1200866F5D /* Almofireobjectmapper */;
+			targetProxy = F1E317F5200E2C1200866F5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1E317DC200E2C1200866F5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1E317DD200E2C1200866F5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1E317E1200E2C1200866F5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1E317E2200E2C1200866F5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1E317FB200E2C1200866F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1E317FC200E2C1200866F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1E317FE200E2C1200866F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Almofireobjectmapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.infostretch.Almofireobjectmapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1E317FF200E2C1200866F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Almofireobjectmapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.infostretch.Almofireobjectmapper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1E31801200E2C1200866F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlmofireobjectmapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.infostretch.AlmofireobjectmapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Almofireobjectmapper.app/Almofireobjectmapper";
+			};
+			name = Debug;
+		};
+		F1E31802200E2C1200866F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlmofireobjectmapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.infostretch.AlmofireobjectmapperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Almofireobjectmapper.app/Almofireobjectmapper";
+			};
+			name = Release;
+		};
+		F1E31804200E2C1200866F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlmofireobjectmapperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.infostretch.AlmofireobjectmapperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Almofireobjectmapper;
+			};
+			name = Debug;
+		};
+		F1E31805200E2C1200866F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AlmofireobjectmapperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Com.infostretch.AlmofireobjectmapperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Almofireobjectmapper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1E317D0200E2C1200866F5D /* Build configuration list for PBXProject "Almofireobjectmapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E317FB200E2C1200866F5D /* Debug */,
+				F1E317FC200E2C1200866F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1E317FD200E2C1200866F5D /* Build configuration list for PBXNativeTarget "Almofireobjectmapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E317FE200E2C1200866F5D /* Debug */,
+				F1E317FF200E2C1200866F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1E31800200E2C1200866F5D /* Build configuration list for PBXNativeTarget "AlmofireobjectmapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E31801200E2C1200866F5D /* Debug */,
+				F1E31802200E2C1200866F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1E31803200E2C1200866F5D /* Build configuration list for PBXNativeTarget "AlmofireobjectmapperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E31804200E2C1200866F5D /* Debug */,
+				F1E31805200E2C1200866F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1E317CD200E2C1200866F5D /* Project object */;
+}
